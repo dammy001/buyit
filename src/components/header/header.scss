@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese');
+$background: #E84850;
+.navbar {
+    padding: 1px;
+    background-color: $background;
+    color: #fff;
+
+        .brand {
+            font-size: 1.5em;
+            font-family: 'Muli', sans-serif;
+            font-weight: 600;
+            line-height: 1;
+            -webkit-transition: all 200ms linear;
+            transition: all 200ms linear; 
+            margin-left: 7em;
+            letter-spacing: 0.2em;
+        }
+
+        .justify-content-right {
+            padding: 1em;
+            font-size: 0.9em;
+            margin-right: 3.5em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .button {
+            border: 1px solid yellow;
+            background-color: $background;
+            color: #fff;
+            transition: all 1s ease-in-out;
+            -webkit-transition: all 1s ease-in-out;
+            font-weight: 500;
+        }
+}

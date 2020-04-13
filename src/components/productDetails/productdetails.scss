@@ -1,0 +1,30 @@
+$background: #E84850;
+.productdetails {
+    padding: 8em;
+    background-color: $background;
+    width: 100%;
+    min-height: 600px;
+    margin: 0;
+    -webkit-transition: all 200ms linear;
+	transition: all 200ms linear; 
+	text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    z-index: 10;
+
+    .container {
+        width: 47em;
+        height: 31em;
+        background-color: #fff;
+        padding: 3em;   
+
+        img {
+            width: 19em;
+            height: 18em;
+            margin-left: -1em;
+        }
+
+        .productD {
+            margin-top: 1.5em;
+        }
+    }
+}

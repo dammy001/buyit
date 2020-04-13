@@ -1,0 +1,49 @@
+$background: #E84850;
+.home {
+    width: 100%;
+    min-height: 658px;
+    background-color: $background;
+    margin: 0;
+    padding: 11em;
+    -webkit-transition: all 200ms linear;
+	transition: all 200ms linear; 
+	text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    z-index: 10;
+    margin-top: 2.5em;
+    color: #fff;
+    
+    h1 {
+        font-size: 3.1em;
+        line-height: 1.3em;
+        font-weight: 700;   
+        -webkit-transition: all 200ms linear;
+        transition: all 200ms linear; 
+    }
+
+    .shopnow {
+        padding: 0.7em;
+        margin-top: 1em;
+        width: 30%;
+        background-color: yellow;
+        border: none;
+        color: black;
+        font-weight: 600;
+        -webkit-transition: all 200ms linear;
+        transition: all 200ms linear;
+        
+        &:hover {
+            background-color: $background;
+            color: white;
+            border: 1px solid yellow;
+            transition: all 1s ease-in;
+            -webkit-transition: all 1s ease-in;
+        }
+    }
+
+    .shop {
+        width: 550px;
+        margin-top: -7em;
+    }
+    
+}
