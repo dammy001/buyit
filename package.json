@@ -16,7 +16,7 @@
     "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
     "indicative": "^7.4.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-animations": "^1.0.0",
     "react-bootstrap": "^1.0.0",
